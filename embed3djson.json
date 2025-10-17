@@ -1,0 +1,101 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "label": "The Carson Paradox"
+    },
+    {
+      "id": 2,
+      "label": "Rage @ the RNC",
+      "description": "In 2008, amid the political tension of the Republican National Convention, I co-produced Ripple Effect - a festival of music, sustainability, and resistance. When Rage Against the Machine took the stage unannounced, their bullhorn-led protest electrified thousands before riot police pulled the plug. It was a moment where art, defiance, and democracy collided, and the sound of rebellion carried long after the amps went silent.",
+      "url": "http://www.thecarsonparadox.com/read/rage-rnc",
+      "properties": {
+        "shift1": {
+          "1": {
+            "x": 18,
+            "y": -114,
+            "ox": -25.851957454095892,
+            "oy": -130.1930457477674
+          }
+        }
+      },
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "label": "The Veg-E-Bus",
+      "description": "4 months. 20,000 miles.Powered by recycled vegetable oil.On a mission to educate about Peak Oil & Climate Change.",
+      "url": "http://www.thecarsonparadox.com/read/veg-e-bus",
+      "properties": {
+        "shift1": {
+          "1": {
+            "x": 166,
+            "y": 59,
+            "ox": 103.39113895407348,
+            "oy": 110.5859385
+          }
+        }
+      },
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "label": "2008 DNC & RNC",
+      "url": "http://www.thecarsonparadox.com/read/dncrnc",
+      "properties": {
+        "shift1": {
+          "1": {
+            "x": -169,
+            "y": 57,
+            "ox": -103.29942410281339,
+            "oy": 110.5859385
+          }
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": 1,
+      "source": 1,
+      "target": 2
+    },
+    {
+      "id": 2,
+      "source": 1,
+      "target": 3
+    },
+    {
+      "id": 3,
+      "source": 1,
+      "target": 4
+    },
+    {
+      "id": 4,
+      "source": 2,
+      "target": 1
+    },
+    {
+      "id": 5,
+      "source": 3,
+      "target": 1
+    },
+    {
+      "id": 6,
+      "source": 4,
+      "target": 1
+    }
+  ],
+  "nodeCategories": [
+    {
+      "id": 1,
+      "name": "Story"
+    }
+  ],
+  "edgeCategories": [],
+  "diagram": {
+    "properties": {
+      "tv": 2
+    }
+  }
+}
